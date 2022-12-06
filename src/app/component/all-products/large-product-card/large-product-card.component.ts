@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import {faHeart,faShare,faUser,faCartPlus,faStar} from '@fortawesome/free-solid-svg-icons'
+import * as AOS from 'aos';
+import {faHeart,faShare,faUser,faCartPlus,faStar} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-large-product-card',
@@ -10,9 +11,12 @@ export class LargeProductCardComponent implements OnInit {
 
   @Input() products:any = '';
   constructor() { }
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    AOS.init();
+  }
   faCartPlus = faCartPlus;
   faStar = faStar;
   faShare = faShare;
   faHeart = faHeart;
+
 }

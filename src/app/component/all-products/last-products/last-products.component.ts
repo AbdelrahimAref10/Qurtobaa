@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import {faShare,faHeart,faUser,faCartPlus} from '@fortawesome/free-solid-svg-icons'
+import {faShare,faHeart,faUser,faCartPlus} from '@fortawesome/free-solid-svg-icons';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-last-products',
@@ -12,6 +13,7 @@ export class LastProductsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    AOS.init();
   }
   faHeart = faHeart;
   faShare = faShare;
