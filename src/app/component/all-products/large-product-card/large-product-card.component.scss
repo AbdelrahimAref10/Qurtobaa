@@ -1,0 +1,16 @@
+.product--card {
+  img {
+    width: 100%;
+  }
+  &_details {
+    .old-price {
+      text-decoration: line-through;
+    }
+  }
+  .heart {
+    transition:all .2s linear;
+    &:hover {
+      color:#f00;
+    }
+  }
+}

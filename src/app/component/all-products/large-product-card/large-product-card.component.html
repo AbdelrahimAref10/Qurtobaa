@@ -1,0 +1,30 @@
+<div class="product--card">
+  <div class="row">
+    <div class="col-lg-3 col-md-4"*ngFor="let ele of products">
+      <div class="app-card mb-4">
+        <img [src]="ele.image" alt="">
+        <div class="product--card_details mt-3">
+          <span>{{ele.title}}</span>
+          <div class="start mt-2">
+            <fa-icon class="star-on" [icon]="faStar"></fa-icon>
+            <fa-icon class="star-on" [icon]="faStar"></fa-icon>
+            <fa-icon class="star-off" [icon]="faStar"></fa-icon>
+            <fa-icon class="star-off" [icon]="faStar"></fa-icon>
+            <fa-icon class="star-off" [icon]="faStar"></fa-icon>
+          </div>
+          <h5 class="old-price star-off mt-4"> {{ele.oldPrice}} ج.م</h5>
+          <h5 class="new-price mt-2"> {{ele.newPrice}} ج.م</h5>
+          <div class="icons mt-4">
+            <div class="d-flex justify-content-between">
+              <a href="#" class="primary-accent"><fa-icon [icon]="faCartPlus"></fa-icon></a>
+              <div class="other-icons">
+                <a href="#" class="star-off heart"><fa-icon [icon]="faHeart" class="mx-3"></fa-icon></a>
+                <a href="#" class="star-off"><fa-icon [icon]="faShare"></fa-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

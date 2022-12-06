@@ -1,0 +1,71 @@
+
+// variables For Light Mode
+$primary:#3200ee; //header color && active icons
+$primary-accent:#302ca2;
+$secondary:#26a37c;
+$divider-gray:#b7aeca;
+$foreGround:#FFF; // card && header Bg
+$star-on:#ffe621;
+$star-off:#eaeaea;
+$backGround:#f6f6f6; //background-color
+
+// Base
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  direction: rtl;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+// custom styles
+.app-card {
+  background-color: #FFF;
+  padding: 1.4rem;
+  border: none;
+  border-radius: 1rem;
+  transition: all .15s linear;
+  cursor: pointer;
+  &:hover {
+    background-color: #000;
+    color:#FFF
+  }
+}
+.primary {
+  color:$primary;
+  a {
+    color: $primary;
+  }
+}
+.primary-accent {
+  color:$primary-accent;
+  a {
+    color: $primary-accent;
+  }
+}
+.border-primary_accent {
+  border:1px solid $primary-accent;
+}
+.foreGround {
+  background-color: $foreGround;
+}
+.backGround {
+  background-color:$backGround;
+}
+.backGround-text {
+  color:$backGround;
+}
+.star-on {
+  color:$star-on;
+}
+.star-off {
+  color: $star-off;
+}
+$star-off:#eaeaea;

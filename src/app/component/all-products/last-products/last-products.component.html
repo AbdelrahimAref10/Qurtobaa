@@ -1,0 +1,31 @@
+<div class="last-products">
+  <div class="last-products_title">
+    <p>منتجات تصفحتها مؤخرا</p>
+  </div>
+  <div class="last-products--card app-card mb-4" *ngFor="let ele of products">
+    <div class="row h-100">
+      <div class="col-lg-5">
+        <div class="last-products--card_image">
+          <img [src]="ele.image" alt="">
+        </div>
+      </div>
+      <div class="col-lg-7 h-100">
+        <div class="last-products--card_description">
+          <div class="details">
+            <p class="name">{{ele.title}}</p>
+            <p class="price">{{ele.newPrice}} ج.م</p>
+          </div>
+          <div class="icons">
+            <div class="d-flex justify-content-between">
+              <a href="#" class="primary-accent"><fa-icon [icon]="faCartPlus"></fa-icon></a>
+              <div class="other-icons">
+                <a class="heart" href="#" class="star-off heart"><fa-icon [icon]="faHeart" class="mx-3"></fa-icon></a>
+                <a class="share" href="#" class="star-off"><fa-icon [icon]="faShare"></fa-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

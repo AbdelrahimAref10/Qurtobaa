@@ -1,0 +1,36 @@
+.last-products {
+  padding: 0 4rem;
+  &_title {
+    margin-bottom: 3.19rem;
+  }
+  &--card {
+    height: 13rem;
+    &_description {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      .price {
+        font-weight: bold;
+      }
+    }
+    &_image {
+      text-align: center;
+      img {
+        height: 100px;
+      }
+    }
+  }
+  .heart {
+    transition:all .2s linear;
+    &:hover {
+      color:#f00;
+    }
+  }
+}
+
+@media(max-width:1200px) {
+  .last-products--card {
+    height: auto;
+  }
+}

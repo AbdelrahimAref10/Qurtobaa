@@ -1,0 +1,10 @@
+[
+  {"image":"../assets/images/shirt3.webp", "title":"تيشيرت - نص كم - رجالى", "oldPrice":230, "newPrice":190},
+  {"image":"../assets/images/shirt4.webp", "title":"تيشرت - كم طويل - نسائي", "oldPrice":225, "newPrice":180},
+  {"image":"../assets/images/shirt5.webp", "title":"تيشرت - صيفى - بطانة", "oldPrice":200,"newPrice":130},
+  {"image":"../assets/images/shirt6.webp", "title":"تيشرت - كم طويل - رجالى", "oldPrice":200, "newPrice":150},
+  {"image":"../assets/images/shirt7.webp", "title":"تيشرت - اطفال - صيفى", "oldPrice":250, "newPrice":190},
+  {"image":"../assets/images/shirt8.webp", "title":"تيشرت - اطفال - شتوى", "oldPrice":230, "newPrice":170},
+  {"image":"../assets/images/shirt9.webp", "title":"تيشرت - نسائي - مستورد", "oldPrice":230, "newPrice":170},
+  {"image":"../assets/images/shirt10.webp", "title":"تيشرت - رجالى - مستورد", "oldPrice":250, "newPrice":180}
+]

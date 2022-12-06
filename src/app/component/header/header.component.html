@@ -1,0 +1,21 @@
+<header class="header foreGround">
+  <div class="container d-flex justify-content-around">
+    <div class="header-logo">
+      <img src="assets/images/logo.png" alt="" srcset="">
+    </div>
+    <div class="header-search">
+      <input type="search" class="form-control backGround" placeholder="عم تبحث ؟">
+    </div>
+    <div class="header-action">
+      <div class="header-action_user backGround primary-accent">
+        <a href="#"><fa-icon [icon]="faUser"></fa-icon></a>
+      </div>
+      <div class="header-action_cart backGround primary-accent">
+        <a href="#">
+          <span class="cartText ms-3">سلة التسوق</span>
+          <fa-icon [icon]="faCartPlus"></fa-icon>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
